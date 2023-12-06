@@ -1,224 +1,227 @@
- *{  margin:0;
-    padding:0;
-    font-family:'Gilroy';
-    box-sizing: border-box;
-    
-  }
-  *::selection{
-    color: #fff;
-    background-color: black;
-  }
-  html , body{ 
-    height: 100%;
-    width: 100%;
-  
-  }
-  body{ 
-    background-color: #F7F7F7;
-  }
-  
 
-  /* ;=========================== */
+*{  
   
+margin:0;
+padding:0;
+font-family:'Gilroy';
+box-sizing: border-box;
+
+}
+*::selection{
+color: #fff;
+background-color: black;
+}
+html , body{ 
+height: 100%;
+width: 100%;
+
+}
+body{ 
+background-color: #F7F7F7;
+}
+
+
+/* ;=========================== */
+
 #nav {
-  /* height: 100px; */
-  width: 100%;
-  /* background-color: burlywood; */
-  position: fixed;
-  z-index: 99;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 25px;
+height: 100px;
+width: 100%;
+/* background-color: burlywood; */
+position: fixed;
+z-index: 99;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+padding: 25px;
 }
 
 #nav #nav-part2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
 }
 
 #links {
-  padding: 10px;
+padding: 10px;
 }
 
 #nav-part1 {
-  /* background-color: RED; */
-  height: 82px;
-  overflow: hidden;
+/* background-color: RED; */
+height: 82px;
+overflow: hidden;
 }
 
 #nav-part1 svg {
-  display: block;
+display: block;
 }
 
 #nav-part2 #links a {
-  text-transform: uppercase;
+text-transform: uppercase;
 
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  font-size: 14px;
-  margin: 0 20px;
+text-decoration: none;
+color: #333;
+font-weight: 500;
+font-size: 18px;
+margin: 0 20px;
 }
 
 #icons {
-  padding: 10px;
-  border-radius: 50px;
-  background-color: #F7F7F7;
+padding: 10px;
+border-radius: 50px;
+background-color: #F7F7F7;
 }
 
 #nav-part2 #icons i {
-  font-size: 18px;
-  margin: 0 20px;
-  font-weight: 100;
+font-size: 18px;
+margin: 0 20px;
+font-weight: 100;
 }
-  /* ================================= */
-  /* cursor */
-  #cursor{
-    z-index: 9;
-    height: 70vh;
-    width: 70vh;
-    border-radius: 50%;
-    position: fixed;
-     
-    background-color:rgba(173, 216, 230, 0.368);
-    
-    transform: translate(-50% ,-50%) scale(0);
-  }
+/* ================================= */
+/* cursor */
+#cursor{
 
-   
+height: 60vh;
+width: 60vh;
+border-radius: 50%;
+position: fixed;
+z-index: 9; 
+background-color:rgba(173, 216, 230, 0.368);
+
+transform: translate(-50% ,-50%) scale(0);
+}
 
 
-  /* .....................page1................... */
 
-  #page-1 {
-    min-height: 100vh;
-    /* background-color: aqua; */
-    position: relative;
-    width: 100%;
-    padding: 0 1vw;
-    padding-top: 20vh;
+
+/* .....................page1................... */
+
+#page-1 {
+min-height: 100vh;
+/* background-color: aqua; */
+position: relative;
+width: 100%;
+padding: 0 1vw;
+padding-top: 20vh;
 
 }
 
 #page-1 h1 span {
-  margin-left: 13.5%;
-  font-size: 15.8vw;
-  text-transform: uppercase;
-  font-family: futura;
-  line-height: 14vw;
-  letter-spacing: -8px;
+margin-left: 13.5%;
+font-size: 15.8vw;
+text-transform: uppercase;
+font-family: futura;
+line-height: 14vw;
+letter-spacing: -8px;
 }
 
 
 #page-1 h1 {
-    font-size: 15.8vw;
-    text-transform: uppercase;
-    font-family: futura;
-    line-height: 14vw;
-    letter-spacing: -8px;
+font-size: 15.8vw;
+text-transform: uppercase;
+font-family: futura;
+line-height: 14vw;
+letter-spacing: -8px;
 }
 
-  /* .............................page1.......... */
-  
- #video-container {
-  height: 100vh;
-  width: 100%;
-  background-color: grey;
-  margin-top: 3vh;
-  position: relative;
+/* .............................page1.......... */
+
+#video-container {
+height: 100vh;
+width: 100%;
+background-color: grey;
+margin-top: 3vh;
+position: relative;
 }
 
 #video-container video {
-  height: 109%;
-  width: 100%;
-  object-fit: cover;
+height: 106vh;
+width: 100%;
+object-fit: cover;
 }
 
 #video-container #play {
-  padding: 3vw 2.2vw;
-  background-color: black;
-  color: #fff;
-  font-size: 1.3vw;
-  position: fixed;
-  text-transform: uppercase;
-  font-family: futura;
-  border-radius: 50%;
-  opacity: 0;
-  scale: 0;
+padding: 3vw 2.2vw;
+background-color: black;
+color: #fff;
+font-size: 1.3vw;
+position: fixed;
+text-transform: uppercase;
+font-family: futura;
+border-radius: 50%;
+opacity: 0;
+scale: 0;
 
 }
 
-   /* ..............................page2............. */
+/* ..............................page2............. */
 #page2{
-  min-height: 120vh;
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding:3vw 1vw;
-  justify-content:space-between;
+min-height: 120vh;
+width: 100%;
+position: relative;
+display: flex;
+align-items: center;
+padding:3vw 1vw;
+justify-content:space-between;
 }
 #page2 .elem{ 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  height: 100%;
-  width: 31%;
-  position: relative;
-  /* background-color: blueviolet; */
- 
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+height: 100%;
+width: 31%;
+position: relative;
+/* background-color: blueviolet; */
+
 }
 #page2 .elem img {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  /* margin-top: 5vh; */
-  scale: 1;
-  
+position: relative;
+height: 100%;
+width: 100%;
+object-fit: cover;
+/* margin-top: 5vh; */
+scale: 1;
+
 }
 #page2 .elem .dets{
-  margin-right: 20%;
-  height: 50px;
-  border-radius: 50px;
-  width: 72%;
-  position: absolute;
-  z-index: 9;
-  top: 55%;
-  left: 13%;
-  transform: translate(-50% -50%);
-  background-color: bisque;
+margin-right: 20%;
+height: 50px;
+border-radius: 50px;
+width: 72%;
+position: absolute;
+z-index: 9;
+top: 50%;
+left: 13%;
+transform: translate(-50% -50%);
+background-color: bisque;
 }
 #page2 .elem .dets:hover{
-  height: 270px;
+height: 270px;
 }
 /* ......................page 3........................ */
- #page3{
-  min-height: 120vh;
-  width:100%;
-  background-color: #F7F7F7;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+#page3{
+min-height: 120vh;
+width:100%;
+background-color: #F7F7F7;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
 
- }
- .child{
-  /* background-color: blue; */
-  height: 54vh;
-  width: 38vw;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
- .child img{
-  height: 100%;
- }
+}
+.child{
+/* background-color: blue; */
+height: 54vh;
+width: 38vw;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.child img{
+height: 100%;
+}
 
 
 
@@ -248,103 +251,165 @@
 
 
 /*............................ foe small - screen........................  */
-@media(max-width: 600px){
+ 
+@media (max-width:600px) {
+
   #nav {
-    /* height: 100px; */
-    width: 100%;
-    /* background-color: burlywood; */
-    position: fixed;
-    z-index: 99;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 15px;
-}
+      /* height: 100px; */
+      width: 100%;
+      /* background-color: burlywood; */
+      position: fixed;
+      z-index: 99;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 15px;
+  }
 
-#nav #nav-part2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
+  #nav #nav-part2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+  }
 
-#links {
-    padding: 10px;
-    display: none;
-}
+  #links {
+      padding: 10px;
+      display: none;
+  }
 
-#nav-part1 {
-    /* background-color: RED; */
-    height: 67px;
-    overflow: hidden;
-}
+  #nav-part1 {
+      /* background-color: RED; */
+      height: 67px;
+      overflow: hidden;
+  }
 
-#nav-part1 svg {
-    display: block;
-    height: 67px;
-    width: 80px;
-}
-#nav #twogoodlogo{
-    height: 40px;
-    margin-left: -20px;
-}
+  #nav-part1 svg {
+      display: block;
+      height: 67px;
+      width: 80px;
+  }
+  #nav #twogoodlogo{
+      height: 40px;
+      margin-left: -20px;
+  }
 
-#icons {
-    padding: 7px;
-    border-radius: 50px;
-    background-color: #F7F7F7;
-}
+  #icons {
+      padding: 7px;
+      border-radius: 50px;
+      background-color: #F7F7F7;
+  }
 
-#nav-part2 #icons i {
-    font-size: 15px;
-    margin: 0 20px;
-    font-weight: 100;
-}
-/* ..................................... .....................................*/
-  #page-1{
-    min-height:60vh;
-    padding: 5.2vh 3.1vh;
-    width: 100%;
-    }
-  #page-1 h1 {
+  #nav-part2 #icons i {
+      font-size: 15px;
+      margin: 0 20px;
+      font-weight: 100;
+  }
+  #page-1 {
+    min-height: 70vh;
+    /* background-color: aqua; */
+    padding: 0 3vw;
+    padding-top: 25vh;
     
-    font-size: 16vw;
-    line-height: 10vh;
-    letter-spacing: -6px;
     }
-    #video-container{ 
-   
-    height:2vh;
-    width: 100%;
-   }
-   
-    #video-container #play{
-      opacity: 1;
-      scale: 1;
-      padding: 9.5vh 7.2vh;
-      font-size: 4.5vh;
-      position:absolute;
+    #page-1 h1 span  {
+        font-size: 15.5vw;
+        line-height: 14vw;
+        letter-spacing: -2px;
+        }
     
-     }
-     
-     #page2{
-      flex-direction: column;
+    #page-1 h1  {
+    font-size: 15.6vw;
+    line-height: 14vw;
+    letter-spacing: -3px;
+    }
+    #video-container {
+        height: 35vh;
+        margin-top: vw;
+      
+        }
+        
+     #video-container video {
+        height: 35vh;
+        width: 100%;
+        }
+
+         
+#video-container #play {
+    padding: 4vw 3vw;
+    background-color: black;
+    color: #fff;
+    font-size: 2vw;
+    position:absolute;
+    top: 35%;
+    left: 35%;
+   transition: tranform(-35% ,-35%);
+    opacity: 1;
+    scale: 1;
+    
+    }
+    
+
+  #page2 {
       min-height: 100vh;
       width: 100%;
       position: relative;
-      /* background-color: aqua; */
       display: flex;
       align-items: center;
       padding: 5vw 3vw;
-      justify-content:space-between;
-    }
+      flex-direction: column;
+      justify-content: space-between;
+      /* background-color: red; */
+  }
 
-    #page2 .elem{
-      margin-bottom: 3vw;
-      height: 70vh;
+  #page2 .elem {
+      height: 100vh;
       width: 100%;
-     overflow: hidden;
-    }
-}
+      /* background-color: red; */
+      overflow: hidden;
+      margin-bottom: 3vw;
+  }
 
- 
+  #page2 .elem .dets {
+      height: 40px;
+      border-radius: 50px;
+      width: 70%;
+      position: absolute;
+      z-index: 9;
+      background-color: rgb(229, 156, 186);
+
+  }
+
+  #page3 {
+      min-height: 120vh;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+
+  .child {
+      height: 54vh;
+      width: 88vw;
+      /* background-color: red; */
+      /* border: 2px solid #000; */
+      position: relative;
+      padding: 15vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .child img {
+      height: 100%;
+  }
+
+  #cursor{
+    height: 30vh;
+    width: 30vh;
+   }
+
+
+}
