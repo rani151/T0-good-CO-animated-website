@@ -1,4 +1,7 @@
-
+ @font-face {
+    font-family: futura;
+    src: url(./futura.woff2);
+ }
 *{  
   
 margin:0;
